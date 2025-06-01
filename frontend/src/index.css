@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  --mainBg: "#F8FAFC";
+  --subBg1: "#FFFFFF";
+  --subBorder1: "#CBD5E1";
+
+  --primaryBtnBg: "#4F46E5";
+  --primaryBtnText: "#FFFFFF";
+  --primaryBtnHover: "#6366F1";
+
+  --secondaryBtnBg: "#E2E8F0";
+  --secondaryBtnText: "#1E293B";
+  --secondaryBtnHover: "#CBD5E1";
+
+  --inputBg: "#FFFFFF";
+  --inputText: "#1E293B";
+  --inputBorder: "#CBD5E1";
+}
+
+@layer components {
+  /* 24px / 120% / 700 */
+  .text-preset-1 {
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: 700;
+  }
+
+  /* 20px / 120% / 550 */
+  .text-preset-2 {
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 550;
+  }
+
+  /* 16px / 120% / 400 */
+  .text-preset-3 {
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 400;
+  }
+
+  /* 14px / 120%  / 400 */
+  .text-preset-4 {
+    font-size: 14px;
+    line-height: 120%;
+    font-weight: 400;
+  }
+}
