@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --mainBg: "#F8FAFC";
-  --subBg1: "#FFFFFF";
+  --mainBg: "#ffffff";
+  --subBg1: "#ffffff";
   --subBorder1: "#CBD5E1";
 
   --primaryBtnBg: "#4F46E5";
